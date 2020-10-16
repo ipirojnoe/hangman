@@ -12,7 +12,7 @@ until game.over?
   # Выводим состояние игры
   console_interface.print_out
   # Спрашиваем букву у пользователя
-  letter = console_interface.get_input
+  letter = console_interface.input
   # Обновляем состояние игры
   game.play!(letter)
 end
