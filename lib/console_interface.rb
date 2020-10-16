@@ -2,7 +2,7 @@
 # Выводит правил, состоянии игры, результата.
 class ConsoleInterface
   FIGURES =
-      Dir["#{__dir__} + '/../data/figures/*.txt'"]
+      Dir["#{__dir__}/../data/figures/*.txt"]
       .sort
       .map { |file_name| File.read(file_name) }
 
