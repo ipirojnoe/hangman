@@ -35,7 +35,7 @@ class Game
   end
 
   def lost?
-    errors_allowed == 0
+    errors_allowed.zero?
   end
 
   def over?
@@ -45,9 +45,7 @@ class Game
   def play!(letter)
     normalized_letter = normalize_letter(letter)
 
-    if !over? && !@user_guesses.include?(normalized_letter)
-      @user_guesses << normalized_letter
-    end
+    @user_guesses << normalized_letter unless over? && @user_guesses.include?(normalized_letter)
   end
 
   def won?
