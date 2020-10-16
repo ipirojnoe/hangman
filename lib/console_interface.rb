@@ -1,3 +1,5 @@
+# Взаимодействие с консолью.
+# Выводит правил, состоянии игры, результата.
 class ConsoleInterface
   FIGURES =
       Dir[__dir__ + '/../data/figures/*.txt']
