@@ -6,9 +6,9 @@
 
 # Скриншоты
 
-![alt text](https://i.imgur.com/DTeej0D.jpg)
+![Начало игры](https://i.imgur.com/oSK7LTJ.png)
 
-![alt text](https://i.imgur.com/I8Yq9J8.jpg)
+![Игра идёт](https://i.imgur.com/r73tSQq.png)
 
 # Правила
 
@@ -25,6 +25,7 @@
 ```
 git clone git@github.com:sirdemin/hangman.git
 cd hangman
+bundle install
 ruby main.rb
 ```
 
