@@ -26,7 +26,7 @@
 git clone git@github.com:sirdemin/hangman.git
 cd hangman
 bundle install
-ruby main.rb
+bundle exec ruby main.rb
 ```
 
 # Куда добавить новые слова
